@@ -6,9 +6,12 @@
 //
 
 #include <iostream>
-
+#include "MusicController.hpp"
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    auto devices = MusicController::getSoundDevices() ;
+    for (const auto &[number,name]:devices) {
+        std::cout << "Device# " << number << " Name: "<<name << std::endl;
+    }
     return 0;
 }

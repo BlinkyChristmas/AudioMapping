@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		5633CB5C2B698461008EE082 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5633CB5B2B698461008EE082 /* main.cpp */; };
+		5633CB642B6984D2008EE082 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5633CB632B6984D2008EE082 /* CoreFoundation.framework */; };
+		5633CB662B6984D9008EE082 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5633CB652B6984D9008EE082 /* CoreAudio.framework */; };
+		5633CB712B698553008EE082 /* timeutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5633CB6A2B698553008EE082 /* timeutil.cpp */; };
+		5633CB722B698553008EE082 /* buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5633CB6B2B698553008EE082 /* buffer.cpp */; };
+		5633CB732B698553008EE082 /* mapfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5633CB6C2B698553008EE082 /* mapfile.cpp */; };
+		5633CB782B6985A2008EE082 /* RtAudio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5633CB762B6985A2008EE082 /* RtAudio.cpp */; };
+		5633CB842B698645008EE082 /* MusicController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5633CB792B698645008EE082 /* MusicController.cpp */; };
+		5633CB852B698645008EE082 /* wavfmtchunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5633CB7C2B698645008EE082 /* wavfmtchunk.cpp */; };
+		5633CB862B698645008EE082 /* fileheader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5633CB7E2B698645008EE082 /* fileheader.cpp */; };
+		5633CB872B698645008EE082 /* mwavfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5633CB7F2B698645008EE082 /* mwavfile.cpp */; };
+		5633CB882B698645008EE082 /* chunkheader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5633CB802B698645008EE082 /* chunkheader.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +36,30 @@
 /* Begin PBXFileReference section */
 		5633CB582B698461008EE082 /* AudioMapping */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AudioMapping; sourceTree = BUILT_PRODUCTS_DIR; };
 		5633CB5B2B698461008EE082 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5633CB632B6984D2008EE082 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		5633CB652B6984D9008EE082 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		5633CB692B698553008EE082 /* mapfile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapfile.hpp; sourceTree = "<group>"; };
+		5633CB6A2B698553008EE082 /* timeutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timeutil.cpp; sourceTree = "<group>"; };
+		5633CB6B2B698553008EE082 /* buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = buffer.cpp; sourceTree = "<group>"; };
+		5633CB6C2B698553008EE082 /* mapfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mapfile.cpp; sourceTree = "<group>"; };
+		5633CB6D2B698553008EE082 /* timeutil.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = timeutil.hpp; sourceTree = "<group>"; };
+		5633CB6E2B698553008EE082 /* strutil.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = strutil.hpp; sourceTree = "<group>"; };
+		5633CB6F2B698553008EE082 /* dbgutil.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dbgutil.hpp; sourceTree = "<group>"; };
+		5633CB702B698553008EE082 /* buffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = buffer.hpp; sourceTree = "<group>"; };
+		5633CB762B6985A2008EE082 /* RtAudio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RtAudio.cpp; sourceTree = "<group>"; };
+		5633CB772B6985A2008EE082 /* RtAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtAudio.h; sourceTree = "<group>"; };
+		5633CB792B698645008EE082 /* MusicController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MusicController.cpp; sourceTree = "<group>"; };
+		5633CB7A2B698645008EE082 /* MusicController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MusicController.hpp; sourceTree = "<group>"; };
+		5633CB7C2B698645008EE082 /* wavfmtchunk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wavfmtchunk.cpp; sourceTree = "<group>"; };
+		5633CB7D2B698645008EE082 /* chunkheader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = chunkheader.hpp; sourceTree = "<group>"; };
+		5633CB7E2B698645008EE082 /* fileheader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fileheader.cpp; sourceTree = "<group>"; };
+		5633CB7F2B698645008EE082 /* mwavfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mwavfile.cpp; sourceTree = "<group>"; };
+		5633CB802B698645008EE082 /* chunkheader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chunkheader.cpp; sourceTree = "<group>"; };
+		5633CB812B698645008EE082 /* fileheader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fileheader.hpp; sourceTree = "<group>"; };
+		5633CB822B698645008EE082 /* mwavfile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mwavfile.hpp; sourceTree = "<group>"; };
+		5633CB832B698645008EE082 /* wavfmtchunk.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = wavfmtchunk.hpp; sourceTree = "<group>"; };
+		5633CBBA2B6A6636008EE082 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5633CBBB2B6A6637008EE082 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5633CB662B6984D9008EE082 /* CoreAudio.framework in Frameworks */,
+				5633CB642B6984D2008EE082 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,8 +78,13 @@
 		5633CB4F2B698461008EE082 = {
 			isa = PBXGroup;
 			children = (
+				5633CBBA2B6A6636008EE082 /* .gitignore */,
+				5633CBBB2B6A6637008EE082 /* CMakeLists.txt */,
+				5633CB742B698569008EE082 /* thirdparty */,
+				5633CB672B698553008EE082 /* common */,
 				5633CB5A2B698461008EE082 /* AudioMapping */,
 				5633CB592B698461008EE082 /* Products */,
+				5633CB622B6984D2008EE082 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +99,76 @@
 		5633CB5A2B698461008EE082 /* AudioMapping */ = {
 			isa = PBXGroup;
 			children = (
+				5633CB792B698645008EE082 /* MusicController.cpp */,
+				5633CB7A2B698645008EE082 /* MusicController.hpp */,
+				5633CB7B2B698645008EE082 /* wavfile */,
 				5633CB5B2B698461008EE082 /* main.cpp */,
 			);
 			path = AudioMapping;
+			sourceTree = "<group>";
+		};
+		5633CB622B6984D2008EE082 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5633CB652B6984D9008EE082 /* CoreAudio.framework */,
+				5633CB632B6984D2008EE082 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5633CB672B698553008EE082 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				5633CB682B698553008EE082 /* utility */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		5633CB682B698553008EE082 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				5633CB692B698553008EE082 /* mapfile.hpp */,
+				5633CB6A2B698553008EE082 /* timeutil.cpp */,
+				5633CB6B2B698553008EE082 /* buffer.cpp */,
+				5633CB6C2B698553008EE082 /* mapfile.cpp */,
+				5633CB6D2B698553008EE082 /* timeutil.hpp */,
+				5633CB6E2B698553008EE082 /* strutil.hpp */,
+				5633CB6F2B698553008EE082 /* dbgutil.hpp */,
+				5633CB702B698553008EE082 /* buffer.hpp */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		5633CB742B698569008EE082 /* thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				5633CB752B69857B008EE082 /* rtaudio */,
+			);
+			path = thirdparty;
+			sourceTree = "<group>";
+		};
+		5633CB752B69857B008EE082 /* rtaudio */ = {
+			isa = PBXGroup;
+			children = (
+				5633CB762B6985A2008EE082 /* RtAudio.cpp */,
+				5633CB772B6985A2008EE082 /* RtAudio.h */,
+			);
+			path = rtaudio;
+			sourceTree = "<group>";
+		};
+		5633CB7B2B698645008EE082 /* wavfile */ = {
+			isa = PBXGroup;
+			children = (
+				5633CB7C2B698645008EE082 /* wavfmtchunk.cpp */,
+				5633CB7D2B698645008EE082 /* chunkheader.hpp */,
+				5633CB7E2B698645008EE082 /* fileheader.cpp */,
+				5633CB7F2B698645008EE082 /* mwavfile.cpp */,
+				5633CB802B698645008EE082 /* chunkheader.cpp */,
+				5633CB812B698645008EE082 /* fileheader.hpp */,
+				5633CB822B698645008EE082 /* mwavfile.hpp */,
+				5633CB832B698645008EE082 /* wavfmtchunk.hpp */,
+			);
+			path = wavfile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +199,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1520;
+				ORGANIZATIONNAME = "Charles Kerr";
 				TargetAttributes = {
 					5633CB572B698461008EE082 = {
 						CreatedOnToolsVersion = 15.2;
@@ -119,7 +229,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5633CB862B698645008EE082 /* fileheader.cpp in Sources */,
+				5633CB722B698553008EE082 /* buffer.cpp in Sources */,
+				5633CB882B698645008EE082 /* chunkheader.cpp in Sources */,
+				5633CB712B698553008EE082 /* timeutil.cpp in Sources */,
+				5633CB872B698645008EE082 /* mwavfile.cpp in Sources */,
+				5633CB732B698553008EE082 /* mapfile.cpp in Sources */,
+				5633CB842B698645008EE082 /* MusicController.cpp in Sources */,
 				5633CB5C2B698461008EE082 /* main.cpp in Sources */,
+				5633CB782B6985A2008EE082 /* RtAudio.cpp in Sources */,
+				5633CB852B698645008EE082 /* wavfmtchunk.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +290,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					__MACOSX_CORE__,
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -184,6 +304,11 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = (
+					$PROJECT_DIR,
+					$PROJECT_DIR/thirdparty,
+					$PROJECT_DIR/common,
+				);
 			};
 			name = Debug;
 		};
@@ -227,6 +352,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = __MACOSX_CORE__;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -238,6 +364,11 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = (
+					$PROJECT_DIR,
+					$PROJECT_DIR/thirdparty,
+					$PROJECT_DIR/common,
+				);
 			};
 			name = Release;
 		};
