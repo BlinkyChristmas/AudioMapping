@@ -48,7 +48,7 @@ if (WIN32)
     )
 else()
     target_compile_definitions(AudioMapping PRIVATE
-        $<$<CONFIG:Debug>:_DEBUG>
+        $<$<CONFIG:Debug>:DEBUG=1>
     )
 
     target_compile_options(AudioMapping PRIVATE
